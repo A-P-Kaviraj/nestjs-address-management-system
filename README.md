@@ -5,7 +5,7 @@
 This project is a microservice-based address management system built using NestJS. It includes three microservices:
 
 -   **User Service:** Provides user data.
--   **Address Management Service:** Manages addresses and communicates with the email service.
+-   **Address Management Service:** Manages addresses and communicates with the user & email service.
 -   **Email Service:** Sends email notifications.
 
 The services communicate with each other using RabbitMQ as the message broker.
