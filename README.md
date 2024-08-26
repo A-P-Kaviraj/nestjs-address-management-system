@@ -140,4 +140,4 @@ The following dependencies are used in this project:
 ## Notes
 
 -   Make sure RabbitMQ is running and accessible at `localhost:5672`.
--   Ensure that email credentials are correctly configured in `email.service.ts` to enable email functionality.
+-   Ensure that email credentials are correctly configured in `email.service.ts` & `user.service.ts` to enable email functionality.
