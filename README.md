@@ -34,12 +34,16 @@ Follow these steps to set up and run the project:
     Navigate to each microservice's folder and install the dependencies:
     
     ```
-    cd user-service
+    cd nestjs-address-management-system-address-service
     npm install
-    cd ../address-service
+    ```
+    ```
+    cd nestjs-address-management-system-user-service
     npm install
-    cd ../email-service
-    npm install` 
+    ```
+    ```
+    cd nestjs-address-management-system-email-service
+    npm install
     ```
 4.  **Set Up Email Credentials:**
     
