@@ -1,0 +1,9 @@
+[submodule "nestjs-address-management-system-user-service"]
+	path = nestjs-address-management-system-user-service
+	url = https://github.com/A-P-Kaviraj/nestjs-address-management-system-user-service.git
+[submodule "nestjs-address-management-system-email-service"]
+	path = nestjs-address-management-system-email-service
+	url = https://github.com/A-P-Kaviraj/nestjs-address-management-system-email-service.git
+[submodule "nestjs-address-management-system-address-service"]
+	path = nestjs-address-management-system-address-service
+	url = https://github.com/A-P-Kaviraj/nestjs-address-management-system-address-service.git
