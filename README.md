@@ -22,13 +22,14 @@ Follow these steps to set up and run the project:
 
 ### Installation
 
-1.  **Clone the Repository:**
+1.  **Clone the with Submodules:**
+   
+    To clone the repository with all its submodules, use the following command:
     ```
-    git clone https://github.com/your-repo/address-management-system.git
-    cd address-management-system
+    git clone --recurse-submodules https://github.com/A-P-Kaviraj/nestjs-address-management-system.git
     ```
     
-2.  **Install Dependencies:**
+3.  **Install Dependencies:**
     
     Navigate to each microservice's folder and install the dependencies:
     
@@ -40,7 +41,7 @@ Follow these steps to set up and run the project:
     cd ../email-service
     npm install` 
     ```
-3.  **Set Up Email Credentials:**
+4.  **Set Up Email Credentials:**
     
     In the `email.service.ts` file of the email service, configure your email credentials directly:
     ```
@@ -69,7 +70,7 @@ Follow these steps to set up and run the project:
     }
    
     
-4.  **Start RabbitMQ:**
+5.  **Start RabbitMQ:**
     
     Use Docker to run RabbitMQ:
     
@@ -77,7 +78,7 @@ Follow these steps to set up and run the project:
 	   docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:management
 	  ```
     
-5.  **Run the Microservices:**
+6.  **Run the Microservices:**
     
     For each microservice, run:
     
