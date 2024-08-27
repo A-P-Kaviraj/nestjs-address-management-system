@@ -22,7 +22,7 @@ Follow these steps to set up and run the project:
 
 ### Installation
 
-1.  **Clone the with Submodules:**
+1.  **Clone the app with Submodules:**
    
     To clone the repository with all its submodules, use the following command:
     ```
